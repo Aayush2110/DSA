@@ -4,12 +4,12 @@ int main(){
     int n;
     cout<<"enter a number"<<endl;
     cin>>n;
-int sum=0;
-int dup=n;
-while(n>0){
-int ln=n%10;
-sum=sum+(ln*ln*ln);
-n=n/10;
+ int sum=0;
+ int dup=n;
+ while(n>0){
+ int ln=n%10;
+ sum=sum+(ln*ln*ln);
+ n=n/10;
 
 }
 if(sum==dup){
@@ -17,6 +17,7 @@ if(sum==dup){
 }
 else{
     cout<<"not armstrong number"<<endl;
+}
 
-
+return 0;
 }
